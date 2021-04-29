@@ -1,0 +1,29 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/public"
+  schedule:
+    interval: daily
+    time: "20:00"
+    timezone: Asia/Tokyo
+  open-pull-requests-limit: 10
+  reviewers:
+  - nownabe
+  assignees:
+  - nownabe
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+    timezone: Asia/Tokyo
+  open-pull-requests-limit: 10
+  reviewers:
+  - nownabe
+  assignees:
+  - nownabe
+  ignore:
+  - dependency-name: puma
+    versions:
+    - 5.2.0
+    - 5.2.1
