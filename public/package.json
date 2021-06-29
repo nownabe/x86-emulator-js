@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/nownabe/x86-emulator-js#readme",
   "devDependencies": {
-    "babel-jest": "^26.2.2",
+    "babel-jest": "^27.0.6",
     "babel-polyfill": "^6.16.0",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
